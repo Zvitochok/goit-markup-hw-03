@@ -39,32 +39,41 @@
     </header>
     
     <main>
-        <div>
-             <h1>Эффективные решения для вашего бизнеса</h1>
+        <!--Hero section-->
+        <div class="hero-text">
+            <h1>Эффективные решения для вашего бизнеса</h1>
             <button class="blue-btn">Заказать услугу</button>
-         </div>
+        </div>
 
          <!--Секция о нас-->
-         <div>
+         <div class="about-us">
              <h2 hidden>О нас</h2>
              <ul class="about-us-list list">
                  <li>
-                     <img src="./img/About_us/antenna.svg" alt="Внимание к деталям">
-                     <h3 class="about-us-list-title">Внимание к деталям</h3>
-                    <p class="about-us-list-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <div class="about-us-list-img">
+                      <img src="./img/About_us/antenna.svg" alt="Внимание к деталям">
+                    </div>
+                        <h3 class="about-us-list-title">Внимание к деталям</h3>
+                        <p class="about-us-list-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                  </li>
                  <li>
-                     <img src="./img/About_us/Vector.svg" alt="Пунктуальность">
-                     <h3 class="about-us-list-title">Пунктуальность</h3>
-                    <p class="about-us-list-description"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+                    <div class="about-us-list-img">
+                       <img src="./img/About_us/Vector.svg" alt="Пунктуальность">
+                    </div>
+                       <h3 class="about-us-list-title">Пунктуальность</h3>
+                        <p class="about-us-list-description"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
+                <li>
+                    <div class="about-us-list-img">
+                      <img src="./img/About_us/diagram.svg" alt="Планирование">
+                    </div>
+                      <h3 class="about-us-list-title">Планирование</h3>
+                     <p class="about-us-list-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
                  <li>
-                     <img src="./img/About_us/diagram.svg" alt="Планирование">
-                     <h3 class="about-us-list-title">Планирование</h3>
-                    <p class="about-us-list-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
-                 <li>
-                     <img src="./img/About_us/astronaut.svg" alt="Современные технологии">
-                    <h3 class="about-us-list-title">Современные технологии</h3>
-                    <p class="about-us-list-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <div class="about-us-list-img">
+                      <img src="./img/About_us/astronaut.svg" alt="Современные технологии">
+                    </div>
+                      <h3 class="about-us-list-title">Современные технологии</h3>
+                      <p class="about-us-list-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                  </li>
 
              </ul>
@@ -72,27 +81,34 @@
          </div>
 
          <!--Чем мы занимаемся-->
-         <div>
+         <div class="services">
              <h2>Чем мы занимаемся</h2>
              <ul class="services-list list">
                  <li>
-                     <img src="./img/About_us/about_us.jpg" alt="Десктопные приложения">
-                     <p class="services-text"><b>Десктопные приложения</b></p>
+                     <div class="services-list-img">
+                        <img src="./img/About_us/about_us.jpg" alt="Десктопные приложения">
+                        <p class="services-text"><b>Десктопные приложения</b></p>
+                    </div>
+                         </li>
+                 <li>
+                     <div class="services-list-img">
+                         <img src="./img/About_us/about_us2.jpg" alt="Мобильные приложения">
+                         <p class="services-text"><b>Мобильные приложения</b></p>
+                        </div>
                  </li>
                  <li>
-                    <img src="./img/About_us/about_us2.jpg" alt="Мобильные приложения">
-                     <p class="services-text"><b>Мобильные приложения</b></p>
-                 </li>
-                 <li>
-                    <img src="./img/About_us/about_us3.jpg" alt="Дизайнерские решения">
-                    <p class="services-text"><b>Дизайнерские решения</b></p>
+                    <div class="services-list-img">
+                        <img src="./img/About_us/about_us3.jpg" alt="Дизайнерские решения">
+                        <p class="services-text"><b>Дизайнерские решения</b></p>
+                    </div>
                  </li>
              </ul>
 
          </div>
 
          <!--Наша команда-->
-         <div>
+         <div class="our-team-background">
+             <div class="our-team">
              <h2>Наша команда</h2> 
              <ul class="our-team-list list">
                  <li>
@@ -140,12 +156,13 @@
                     </ul>
                  </li>
              </ul>
+            </div>
          </div>
 
          <!--Постоянные клиенты-->
-         <div>
+         <div class="clients">
              <h2>Постоянные клиенты</h2>
-             <ul>
+             <ul class="clients-list">
                 <li>
                     <img src="./img/our_client/logo_1.svg" alt="Фото Клиент 1">               
                  </li>
@@ -170,26 +187,26 @@
 
     </main>
 
-    <footer>
-        <div>
-            <a class="logo logo-footer" href="/" lang="en"><span class="logo-blue">Web</span> Studio</a>
-            <address>
-                <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-                <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="footer-tel" href="tel:+380961111111">(096) 111-11-11</a>
-
-            </address>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-list">
+                <a class="logo logo-footer" href="/" lang="en"><span class="logo-blue">Web</span> Studio</a>
+                <address>
+                    <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
+                    <a class="footer-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="footer-tel" href="tel:+380961111111">(096) 111-11-11</a>
+                </address>
+            </div>
+            <div>
+                <b class="subscribe">присоединяйтесь</b>
+                <ul class="social-icons">
+                    <li><a href="" lang="en">Instagram</a></li>
+                    <li><a href="" lang="en">Twitter</a></li>
+                    <li><a href="" lang="en">Facebook</a></li>
+                    <li><a href="" lang="en">Linkedin</a></li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <b class="subscribe">присоединяйтесь</b>
-            <ul class="social-icons">
-                <li><a href="" lang="en">Instagram</a></li>
-                <li><a href="" lang="en">Twitter</a></li>
-                <li><a href="" lang="en">Facebook</a></li>
-                <li><a href="" lang="en">Linkedin</a></li>
-            </ul>
-        </div>
-
     </footer>
 </body>
 </html>
