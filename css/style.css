@@ -9,6 +9,33 @@ body {
     color:#757575;
     font-size: 14px;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    }
+/* HEADER*/
+.header {
+    
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+}
 .logo,
 .logo:hover,
 .logo:focus
@@ -21,6 +48,7 @@ body {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    margin-right: 85px;
 }
 .logo-blue {
     font-family: Raleway;
@@ -39,6 +67,7 @@ body {
 }
 .link {
     text-decoration: none; 
+    display: block;
 }
 .list {
    list-style: none; 
@@ -60,6 +89,17 @@ body {
 .header-tel:focus
 {
     color: #2196F3;
+}
+.navigation-list-link{
+    padding-top: 32px;
+    padding-bottom: 32px;   
+}
+.header-utils{
+  
+    display: flex;
+}
+.header-email:not(:last-child) {
+    margin-right: 50px;
 }
 .header-email,
 .header-tel{
