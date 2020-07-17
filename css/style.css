@@ -161,7 +161,8 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-   
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 .about-us{
     padding:94px 0 0 0;
@@ -204,9 +205,6 @@ h2 {
 /* Чем мы занимаемся*/
 .services {
     padding: 94px 0 0 0;
-}
-.services h2 {
-    margin-bottom: 50px;
 }
 .services-list {
     display: flex;
@@ -261,9 +259,6 @@ h2 {
     margin-right: 30px;
     
 }
-.our-team h2 {
-        margin-top: 0;
-    }
 .our-team-list {
     display: flex;
     flex-direction: row;
@@ -317,9 +312,6 @@ h2 {
 }
 .clients-list li:not(:last-child) {
     margin-right: 30px;
-}
-.clients h2 {
-    margin-top: 0px;
 }
 
 /* Footer*/
