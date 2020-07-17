@@ -112,6 +112,7 @@ body {
     color: #757575;
     display: inline-block;
 }
+
 /* Hero section*/
 
 h1 { 
@@ -162,12 +163,9 @@ h2 {
     color: #212121;
    
 }
-.about-us {
-    width: 1170px;
-    margin: 94px auto 0 auto;
-      
+.about-us{
+    padding:94px 0 0 0;
 }
-
 .about-us-list {
     display: flex;
     flex-direction: row;
@@ -205,8 +203,7 @@ h2 {
 }
 /* Чем мы занимаемся*/
 .services {
-    width: 1170px;
-    margin: 94px auto 0 auto;
+    padding: 94px 0 0 0;
 }
 .services h2 {
     margin-bottom: 50px;
@@ -253,7 +250,7 @@ h2 {
 .our-team-background {
    background-color: #F5F4FA;
    padding: 94px 0 94px 0;
-   margin-top: 94px;
+   
 }
 
 .our-team {
@@ -297,8 +294,7 @@ h2 {
 }
 /*Клиенты*/
 .clients {
-    width: 1170px;
-    margin: 94px auto 0 auto;
+    padding: 94px 0 94px 0;
       
 }
 .clients-list {
@@ -329,7 +325,7 @@ h2 {
 /* Footer*/
 .footer {
     background: #2F303A;
-    margin-top: 94px;
+    
 }
 .footer-wrap{
     width: 1170px;
@@ -436,12 +432,10 @@ h2 {
 }
 /*Портфолио*/
 .portfolio {
-    width: 1170px;
-    margin: 0 auto;
-    
+    padding: 94px 0;
 }
 .button-portfolio-list {
-    margin-bottom: 34px
+    margin-bottom: 50px
 }
 .portfolio-list {
     align-items: flex-start;
